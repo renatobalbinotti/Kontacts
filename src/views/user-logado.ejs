@@ -1,0 +1,16 @@
+<%- include('includes/head')%> <%- include('includes/nav')%>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8 my-3">
+      <h1 class="text-center">Olá, <%= user.nome %>!</h1>
+      <p class="text-center lead">Bem-vindo à <b>Kontacts<b>.</p>
+      <p class="text-center lead">Clique <a href="/">aqui</a> para ir aos seus contatos</p>
+
+      <%- include('includes/messages'); %>
+    </div>
+  </div>
+
+  <%- include('includes/footer') %>
+</div>
